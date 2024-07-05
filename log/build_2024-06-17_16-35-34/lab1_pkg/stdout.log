@@ -1,0 +1,10 @@
+[35m[1mConsolidate compiler generated dependencies of target relay[0m
+[  0%] Built target ament_cmake_python_copy_lab1_pkg
+[ 50%] [32mBuilding CXX object CMakeFiles/relay.dir/src/relay.cpp.o[0m
+running egg_info
+writing lab1_pkg.egg-info/PKG-INFO
+writing dependency_links to lab1_pkg.egg-info/dependency_links.txt
+writing top-level names to lab1_pkg.egg-info/top_level.txt
+reading manifest file 'lab1_pkg.egg-info/SOURCES.txt'
+writing manifest file 'lab1_pkg.egg-info/SOURCES.txt'
+[ 50%] Built target ament_cmake_python_build_lab1_pkg_egg

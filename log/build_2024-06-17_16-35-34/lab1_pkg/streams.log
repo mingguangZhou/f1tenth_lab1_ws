@@ -1,0 +1,22 @@
+[0.020s] Invoking command in '/home/jerry/lab1_ws/build/lab1_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jerry/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/jerry/lab1_ws/build/lab1_pkg -- -j2 -l2
+[0.085s] [35m[1mConsolidate compiler generated dependencies of target relay[0m
+[0.105s] [  0%] Built target ament_cmake_python_copy_lab1_pkg
+[0.138s] [ 50%] [32mBuilding CXX object CMakeFiles/relay.dir/src/relay.cpp.o[0m
+[0.511s] running egg_info
+[0.512s] writing lab1_pkg.egg-info/PKG-INFO
+[0.513s] writing dependency_links to lab1_pkg.egg-info/dependency_links.txt
+[0.513s] writing top-level names to lab1_pkg.egg-info/top_level.txt
+[0.516s] reading manifest file 'lab1_pkg.egg-info/SOURCES.txt'
+[0.517s] writing manifest file 'lab1_pkg.egg-info/SOURCES.txt'
+[0.563s] [ 50%] Built target ament_cmake_python_build_lab1_pkg_egg
+[3.049s] [01m[K/home/jerry/lab1_ws/src/lab1_pkg/src/relay.cpp:[m[K In member function ‘[01m[Kvoid RelayNode::callback(ackermann_msgs::msg::AckermannDriveStamped_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.050s] [01m[K/home/jerry/lab1_ws/src/lab1_pkg/src/relay.cpp:17:30:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kackermann_msgs::msg::AckermannDriveStamped_<std::allocator<void> >::_drive_type[m[K’ {aka ‘[01m[Kackermann_msgs::msg::AckermannDrive_<std::allocator<void> >[m[K’}
+[3.050s]    17 |         v_relay_ = msg->drive[01;31m[K->[m[Kspeed;
+[3.050s]       |                              [01;31m[K^~[m[K
+[3.050s] [01m[K/home/jerry/lab1_ws/src/lab1_pkg/src/relay.cpp:18:30:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kackermann_msgs::msg::AckermannDriveStamped_<std::allocator<void> >::_drive_type[m[K’ {aka ‘[01m[Kackermann_msgs::msg::AckermannDrive_<std::allocator<void> >[m[K’}
+[3.050s]    18 |         d_relay_ = msg->drive[01;31m[K->[m[Ksteering_angle;
+[3.050s]       |                              [01;31m[K^~[m[K
+[6.083s] gmake[2]: *** [CMakeFiles/relay.dir/build.make:76: CMakeFiles/relay.dir/src/relay.cpp.o] Error 1
+[6.083s] gmake[1]: *** [CMakeFiles/Makefile2:140: CMakeFiles/relay.dir/all] Error 2
+[6.083s] gmake: *** [Makefile:146: all] Error 2
+[6.086s] Invoked command in '/home/jerry/lab1_ws/build/lab1_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jerry/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/jerry/lab1_ws/build/lab1_pkg -- -j2 -l2

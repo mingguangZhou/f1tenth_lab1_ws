@@ -1,0 +1,2 @@
+Invoking command in '/home/jerry/lab1_ws/build/lab1_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jerry/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/jerry/lab1_ws/build/lab1_pkg -- -j2 -l2
+Invoked command in '/home/jerry/lab1_ws/build/lab1_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jerry/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/jerry/lab1_ws/build/lab1_pkg -- -j2 -l2

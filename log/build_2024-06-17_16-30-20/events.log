@@ -1,0 +1,137 @@
+[0.000000] (-) TimerEvent: {}
+[0.000231] (lab1_pkg) JobQueued: {'identifier': 'lab1_pkg', 'dependencies': OrderedDict()}
+[0.001010] (lab1_pkg) JobStarted: {'identifier': 'lab1_pkg'}
+[0.010616] (lab1_pkg) JobProgress: {'identifier': 'lab1_pkg', 'progress': 'cmake'}
+[0.020889] (lab1_pkg) JobProgress: {'identifier': 'lab1_pkg', 'progress': 'build'}
+[0.021394] (lab1_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jerry/lab1_ws/build/lab1_pkg', '--', '-j2', '-l2'], 'cwd': '/home/jerry/lab1_ws/build/lab1_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jerry'), ('LC_TIME', 'nl_NL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jerry'), ('OLDPWD', '/home/jerry/lab1_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('SYSTEMD_EXEC_PID', '2324'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jerry/lab1_ws/install:/home/jerry/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jerry'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jerry'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jerry-VirtualBox:@/tmp/.ICE-unix/1326,unix/jerry-VirtualBox:/tmp/.ICE-unix/1326'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2c83038a_0907_4c29_802d_e6fdbcc7e05c'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.IDHVM2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.87'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jerry/lab1_ws/install/lab1_pkg:/home/jerry/ros2_ws/install/my_py_pkg:/home/jerry/ros2_ws/install/my_cpp_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jerry/lab1_ws/build/lab1_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jerry/ros2_ws/build/my_py_pkg:/home/jerry/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jerry/lab1_ws/install/lab1_pkg:/home/jerry/ros2_ws/install/my_cpp_pkg:/home/jerry/ros2_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[0.083959] (lab1_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/relay.dir/src/relay.cpp.o\x1b[0m\n'}
+[0.095238] (lab1_pkg) StdoutLine: {'line': b'[ 50%] Built target ament_cmake_python_copy_lab1_pkg\n'}
+[0.100015] (-) TimerEvent: {}
+[0.200502] (-) TimerEvent: {}
+[0.301076] (-) TimerEvent: {}
+[0.401612] (-) TimerEvent: {}
+[0.502106] (-) TimerEvent: {}
+[0.513288] (lab1_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[0.515100] (lab1_pkg) StdoutLine: {'line': b'writing lab1_pkg.egg-info/PKG-INFO\n'}
+[0.516129] (lab1_pkg) StdoutLine: {'line': b'writing dependency_links to lab1_pkg.egg-info/dependency_links.txt\n'}
+[0.517137] (lab1_pkg) StdoutLine: {'line': b'writing top-level names to lab1_pkg.egg-info/top_level.txt\n'}
+[0.524579] (lab1_pkg) StdoutLine: {'line': b"reading manifest file 'lab1_pkg.egg-info/SOURCES.txt'\n"}
+[0.525944] (lab1_pkg) StdoutLine: {'line': b"writing manifest file 'lab1_pkg.egg-info/SOURCES.txt'\n"}
+[0.574146] (lab1_pkg) StdoutLine: {'line': b'[ 50%] Built target ament_cmake_python_build_lab1_pkg_egg\n'}
+[0.602721] (-) TimerEvent: {}
+[0.703357] (-) TimerEvent: {}
+[0.803667] (-) TimerEvent: {}
+[0.904023] (-) TimerEvent: {}
+[1.005722] (-) TimerEvent: {}
+[1.106191] (-) TimerEvent: {}
+[1.206722] (-) TimerEvent: {}
+[1.306960] (-) TimerEvent: {}
+[1.407262] (-) TimerEvent: {}
+[1.508182] (-) TimerEvent: {}
+[1.608416] (-) TimerEvent: {}
+[1.709923] (-) TimerEvent: {}
+[1.810843] (-) TimerEvent: {}
+[1.911698] (-) TimerEvent: {}
+[2.013299] (-) TimerEvent: {}
+[2.114113] (-) TimerEvent: {}
+[2.215910] (-) TimerEvent: {}
+[2.316832] (-) TimerEvent: {}
+[2.418509] (-) TimerEvent: {}
+[2.518813] (-) TimerEvent: {}
+[2.619067] (-) TimerEvent: {}
+[2.720039] (-) TimerEvent: {}
+[2.822313] (-) TimerEvent: {}
+[2.856133] (lab1_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jerry/lab1_ws/src/lab1_pkg/src/relay.cpp:7:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids declaration of \xe2\x80\x98\x1b[01m\x1b[KNumberCounterNode\x1b[m\x1b[K\xe2\x80\x99 with no type [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.856346] (lab1_pkg) StderrLine: {'line': b'    7 |     \x1b[01;31m\x1b[KNumberCounterNode\x1b[m\x1b[K() : Node("relay")\n'}
+[2.856425] (lab1_pkg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.907599] (lab1_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jerry/lab1_ws/src/lab1_pkg/src/relay.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kint RelayNode::NumberCounterNode()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.907785] (lab1_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jerry/lab1_ws/src/lab1_pkg/src/relay.cpp:7:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Konly constructors take member initializers\n'}
+[2.907861] (lab1_pkg) StderrLine: {'line': b'    7 |     NumberCounterNode() : \x1b[01;31m\x1b[KNode\x1b[m\x1b[K("relay")\n'}
+[2.907928] (lab1_pkg) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.917161] (lab1_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jerry/lab1_ws/src/lab1_pkg/src/relay.cpp:12:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kno return statement in function returning non-void [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type\x07-Wreturn-type\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.917349] (lab1_pkg) StderrLine: {'line': b'   12 |     \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[2.917417] (lab1_pkg) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.926271] (lab1_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jerry/lab1_ws/src/lab1_pkg/src/relay.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid RelayNode::callback(ackermann_msgs::msg::AckermannDriveStamped_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.926440] (-) TimerEvent: {}
+[2.926543] (lab1_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jerry/lab1_ws/src/lab1_pkg/src/relay.cpp:17:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct ackermann_msgs::msg::AckermannDriveStamped_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct ackermann_msgs::msg::AckermannDriveStamped_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kspeed\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.927479] (lab1_pkg) StderrLine: {'line': b'   17 |         v_relay_ = drive->\x1b[01;31m\x1b[Kspeed\x1b[m\x1b[K;\n'}
+[2.927658] (lab1_pkg) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.927853] (lab1_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jerry/lab1_ws/src/lab1_pkg/src/relay.cpp:18:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct ackermann_msgs::msg::AckermannDriveStamped_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct ackermann_msgs::msg::AckermannDriveStamped_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Ksteering_angle\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.927996] (lab1_pkg) StderrLine: {'line': b'   18 |         d_relay_ = drive->\x1b[01;31m\x1b[Ksteering_angle\x1b[m\x1b[K;\n'}
+[2.928141] (lab1_pkg) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.928277] (lab1_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jerry/lab1_ws/src/lab1_pkg/src/relay.cpp:20:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct ackermann_msgs::msg::AckermannDriveStamped_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kspeed\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.928451] (lab1_pkg) StderrLine: {'line': b'   20 |         drive_delay.\x1b[01;31m\x1b[Kspeed\x1b[m\x1b[K = v_relay_ * 3;\n'}
+[2.928749] (lab1_pkg) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.928897] (lab1_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jerry/lab1_ws/src/lab1_pkg/src/relay.cpp:21:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct ackermann_msgs::msg::AckermannDriveStamped_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Ksteering_angle\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.929023] (lab1_pkg) StderrLine: {'line': b'   21 |         drive_delay.\x1b[01;31m\x1b[Ksteering_angle\x1b[m\x1b[K = d_relay_ * 3;\n'}
+[2.929146] (lab1_pkg) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.026655] (-) TimerEvent: {}
+[3.127917] (-) TimerEvent: {}
+[3.230301] (-) TimerEvent: {}
+[3.330719] (-) TimerEvent: {}
+[3.431036] (-) TimerEvent: {}
+[3.531348] (-) TimerEvent: {}
+[3.631665] (-) TimerEvent: {}
+[3.732028] (-) TimerEvent: {}
+[3.752840] (lab1_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[3.753025] (lab1_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[3.753108] (lab1_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:64\x1b[m\x1b[K,\n'}
+[3.753170] (lab1_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[3.753229] (lab1_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jerry/lab1_ws/src/lab1_pkg/src/relay.cpp:1\x1b[m\x1b[K:\n'}
+[3.753365] (lab1_pkg) StderrLine: {'line': b'/usr/include/c++/11/ext/new_allocator.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = RelayNode; _Args = {}; _Tp = RelayNode]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.753440] (lab1_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/alloc_traits.h:516:17:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = RelayNode; _Args = {}; _Tp = RelayNode; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<RelayNode>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.753508] (lab1_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {}; _Tp = RelayNode; _Alloc = std::allocator<RelayNode>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.753576] (lab1_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = RelayNode; _Alloc = std::allocator<RelayNode>; _Args = {}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.753635] (lab1_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<RelayNode>; _Args = {}; _Tp = RelayNode; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.753695] (lab1_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:409:59:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<RelayNode>; _Args = {}; _Tp = RelayNode]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.753754] (lab1_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:862:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = RelayNode; _Alloc = std::allocator<RelayNode>; _Args = {}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.753812] (lab1_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:878:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = RelayNode; _Args = {}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.753869] (lab1_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jerry/lab1_ws/src/lab1_pkg/src/relay.cpp:34:44:\x1b[m\x1b[K   required from here\n'}
+[3.753926] (lab1_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ext/new_allocator.h:162:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kuse of deleted function \xe2\x80\x98\x1b[01m\x1b[KRelayNode::RelayNode()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.753984] (lab1_pkg) StderrLine: {'line': b'  162 |         { \x1b[01;31m\x1b[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)\x1b[m\x1b[K; }\n'}
+[3.754040] (lab1_pkg) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.754096] (lab1_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jerry/lab1_ws/src/lab1_pkg/src/relay.cpp:4:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KRelayNode::RelayNode()\x1b[m\x1b[K\xe2\x80\x99 is implicitly deleted because the default definition would be ill-formed:\n'}
+[3.754167] (lab1_pkg) StderrLine: {'line': b'    4 | class \x1b[01;36m\x1b[KRelayNode\x1b[m\x1b[K : public rclcpp::Node\n'}
+[3.754275] (lab1_pkg) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.754363] (lab1_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jerry/lab1_ws/src/lab1_pkg/src/relay.cpp:4:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.754422] (lab1_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[3.754478] (lab1_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[3.754535] (lab1_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.754592] (lab1_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jerry/lab1_ws/src/lab1_pkg/src/relay.cpp:1\x1b[m\x1b[K:\n'}
+[3.760827] (lab1_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1294:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node(const rclcpp::Node&, const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.761079] (lab1_pkg) StderrLine: {'line': b' 1294 |   \x1b[01;36m\x1b[KNode\x1b[m\x1b[K(\n'}
+[3.761158] (lab1_pkg) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.761217] (lab1_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1294:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 0 provided\n'}
+[3.761277] (lab1_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:101:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node(const string&, const string&, const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.761337] (lab1_pkg) StderrLine: {'line': b'  101 |   explicit \x1b[01;36m\x1b[KNode\x1b[m\x1b[K(\n'}
+[3.761393] (lab1_pkg) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.761450] (lab1_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:101:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 0 provided\n'}
+[3.761562] (lab1_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:89:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node(const string&, const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.761652] (lab1_pkg) StderrLine: {'line': b'   89 |   explicit \x1b[01;36m\x1b[KNode\x1b[m\x1b[K(\n'}
+[3.761709] (lab1_pkg) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.761764] (lab1_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:89:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 0 provided\n'}
+[3.832643] (-) TimerEvent: {}
+[3.933192] (-) TimerEvent: {}
+[4.034662] (-) TimerEvent: {}
+[4.135352] (-) TimerEvent: {}
+[4.235612] (-) TimerEvent: {}
+[4.335932] (-) TimerEvent: {}
+[4.436447] (-) TimerEvent: {}
+[4.536992] (-) TimerEvent: {}
+[4.638323] (-) TimerEvent: {}
+[4.739085] (-) TimerEvent: {}
+[4.839395] (-) TimerEvent: {}
+[4.939778] (-) TimerEvent: {}
+[5.040173] (-) TimerEvent: {}
+[5.140720] (-) TimerEvent: {}
+[5.241045] (-) TimerEvent: {}
+[5.341982] (-) TimerEvent: {}
+[5.443328] (-) TimerEvent: {}
+[5.543647] (-) TimerEvent: {}
+[5.644023] (-) TimerEvent: {}
+[5.657572] (lab1_pkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/relay.dir/build.make:76: CMakeFiles/relay.dir/src/relay.cpp.o] Error 1\n'}
+[5.657896] (lab1_pkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:140: CMakeFiles/relay.dir/all] Error 2\n'}
+[5.657969] (lab1_pkg) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[5.660287] (lab1_pkg) CommandEnded: {'returncode': 2}
+[5.709214] (lab1_pkg) JobEnded: {'identifier': 'lab1_pkg', 'rc': 2}
+[5.720120] (-) EventReactorShutdown: {}

@@ -1,0 +1,28 @@
+[0.036s] Invoking command in '/home/jerry/lab1_ws/build/lab1_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jerry/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/jerry/lab1_ws/build/lab1_pkg -- -j2 -l2
+[0.132s] [35m[1mConsolidate compiler generated dependencies of target relay[0m
+[0.148s] [  0%] Built target ament_cmake_python_copy_lab1_pkg
+[0.183s] [ 50%] [32mBuilding CXX object CMakeFiles/relay.dir/src/relay.cpp.o[0m
+[0.491s] running egg_info
+[0.496s] writing lab1_pkg.egg-info/PKG-INFO
+[0.497s] writing dependency_links to lab1_pkg.egg-info/dependency_links.txt
+[0.497s] writing top-level names to lab1_pkg.egg-info/top_level.txt
+[0.498s] reading manifest file 'lab1_pkg.egg-info/SOURCES.txt'
+[0.498s] writing manifest file 'lab1_pkg.egg-info/SOURCES.txt'
+[0.545s] [ 50%] Built target ament_cmake_python_build_lab1_pkg_egg
+[3.167s] [01m[K/home/jerry/lab1_ws/src/lab1_pkg/src/relay.cpp:[m[K In member function ‘[01m[Kvoid RelayNode::callback(ackermann_msgs::msg::AckermannDriveStamped_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.168s] [01m[K/home/jerry/lab1_ws/src/lab1_pkg/src/relay.cpp:17:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct ackermann_msgs::msg::AckermannDriveStamped_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct ackermann_msgs::msg::AckermannDriveStamped_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kspeed[m[K’
+[3.168s]    17 |         v_relay_ = drive->[01;31m[Kspeed[m[K;
+[3.168s]       |                           [01;31m[K^~~~~[m[K
+[3.168s] [01m[K/home/jerry/lab1_ws/src/lab1_pkg/src/relay.cpp:18:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct ackermann_msgs::msg::AckermannDriveStamped_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct ackermann_msgs::msg::AckermannDriveStamped_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ksteering_angle[m[K’
+[3.168s]    18 |         d_relay_ = drive->[01;31m[Ksteering_angle[m[K;
+[3.168s]       |                           [01;31m[K^~~~~~~~~~~~~~[m[K
+[3.170s] [01m[K/home/jerry/lab1_ws/src/lab1_pkg/src/relay.cpp:20:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct ackermann_msgs::msg::AckermannDriveStamped_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kspeed[m[K’
+[3.170s]    20 |         drive_delay.[01;31m[Kspeed[m[K = v_relay_ * 3;
+[3.170s]       |                     [01;31m[K^~~~~[m[K
+[3.170s] [01m[K/home/jerry/lab1_ws/src/lab1_pkg/src/relay.cpp:21:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct ackermann_msgs::msg::AckermannDriveStamped_<std::allocator<void> >[m[K’ has no member named ‘[01m[Ksteering_angle[m[K’
+[3.170s]    21 |         drive_delay.[01;31m[Ksteering_angle[m[K = d_relay_ * 3;
+[3.170s]       |                     [01;31m[K^~~~~~~~~~~~~~[m[K
+[6.312s] gmake[2]: *** [CMakeFiles/relay.dir/build.make:76: CMakeFiles/relay.dir/src/relay.cpp.o] Error 1
+[6.313s] gmake[1]: *** [CMakeFiles/Makefile2:140: CMakeFiles/relay.dir/all] Error 2
+[6.314s] gmake: *** [Makefile:146: all] Error 2
+[6.314s] Invoked command in '/home/jerry/lab1_ws/build/lab1_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jerry/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/jerry/lab1_ws/build/lab1_pkg -- -j2 -l2

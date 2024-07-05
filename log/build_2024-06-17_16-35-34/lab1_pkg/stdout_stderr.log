@@ -1,0 +1,20 @@
+[35m[1mConsolidate compiler generated dependencies of target relay[0m
+[  0%] Built target ament_cmake_python_copy_lab1_pkg
+[ 50%] [32mBuilding CXX object CMakeFiles/relay.dir/src/relay.cpp.o[0m
+running egg_info
+writing lab1_pkg.egg-info/PKG-INFO
+writing dependency_links to lab1_pkg.egg-info/dependency_links.txt
+writing top-level names to lab1_pkg.egg-info/top_level.txt
+reading manifest file 'lab1_pkg.egg-info/SOURCES.txt'
+writing manifest file 'lab1_pkg.egg-info/SOURCES.txt'
+[ 50%] Built target ament_cmake_python_build_lab1_pkg_egg
+[01m[K/home/jerry/lab1_ws/src/lab1_pkg/src/relay.cpp:[m[K In member function ‘[01m[Kvoid RelayNode::callback(ackermann_msgs::msg::AckermannDriveStamped_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/jerry/lab1_ws/src/lab1_pkg/src/relay.cpp:17:30:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kackermann_msgs::msg::AckermannDriveStamped_<std::allocator<void> >::_drive_type[m[K’ {aka ‘[01m[Kackermann_msgs::msg::AckermannDrive_<std::allocator<void> >[m[K’}
+   17 |         v_relay_ = msg->drive[01;31m[K->[m[Kspeed;
+      |                              [01;31m[K^~[m[K
+[01m[K/home/jerry/lab1_ws/src/lab1_pkg/src/relay.cpp:18:30:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kackermann_msgs::msg::AckermannDriveStamped_<std::allocator<void> >::_drive_type[m[K’ {aka ‘[01m[Kackermann_msgs::msg::AckermannDrive_<std::allocator<void> >[m[K’}
+   18 |         d_relay_ = msg->drive[01;31m[K->[m[Ksteering_angle;
+      |                              [01;31m[K^~[m[K
+gmake[2]: *** [CMakeFiles/relay.dir/build.make:76: CMakeFiles/relay.dir/src/relay.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:140: CMakeFiles/relay.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

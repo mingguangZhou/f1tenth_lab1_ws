@@ -1,0 +1,12 @@
+/home/jerry/lab1_ws/build/lab1_pkg/CMakeFiles/uninstall.dir
+/home/jerry/lab1_ws/build/lab1_pkg/CMakeFiles/lab1_pkg_uninstall.dir
+/home/jerry/lab1_ws/build/lab1_pkg/CMakeFiles/relay.dir
+/home/jerry/lab1_ws/build/lab1_pkg/CMakeFiles/ament_cmake_python_copy_lab1_pkg.dir
+/home/jerry/lab1_ws/build/lab1_pkg/CMakeFiles/ament_cmake_python_build_lab1_pkg_egg.dir
+/home/jerry/lab1_ws/build/lab1_pkg/CMakeFiles/test.dir
+/home/jerry/lab1_ws/build/lab1_pkg/CMakeFiles/edit_cache.dir
+/home/jerry/lab1_ws/build/lab1_pkg/CMakeFiles/rebuild_cache.dir
+/home/jerry/lab1_ws/build/lab1_pkg/CMakeFiles/list_install_components.dir
+/home/jerry/lab1_ws/build/lab1_pkg/CMakeFiles/install.dir
+/home/jerry/lab1_ws/build/lab1_pkg/CMakeFiles/install/local.dir
+/home/jerry/lab1_ws/build/lab1_pkg/CMakeFiles/install/strip.dir

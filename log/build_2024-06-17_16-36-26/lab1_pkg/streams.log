@@ -1,0 +1,45 @@
+[0.023s] Invoking command in '/home/jerry/lab1_ws/build/lab1_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jerry/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/jerry/lab1_ws/build/lab1_pkg -- -j2 -l2
+[0.080s] [35m[1mConsolidate compiler generated dependencies of target relay[0m
+[0.101s] [ 50%] [32mBuilding CXX object CMakeFiles/relay.dir/src/relay.cpp.o[0m
+[0.104s] [ 50%] Built target ament_cmake_python_copy_lab1_pkg
+[0.561s] running egg_info
+[0.562s] writing lab1_pkg.egg-info/PKG-INFO
+[0.562s] writing dependency_links to lab1_pkg.egg-info/dependency_links.txt
+[0.562s] writing top-level names to lab1_pkg.egg-info/top_level.txt
+[0.562s] reading manifest file 'lab1_pkg.egg-info/SOURCES.txt'
+[0.562s] writing manifest file 'lab1_pkg.egg-info/SOURCES.txt'
+[0.596s] [ 50%] Built target ament_cmake_python_build_lab1_pkg_egg
+[10.047s] [100%] [32m[1mLinking CXX executable relay[0m
+[10.552s] [100%] Built target relay
+[10.573s] Invoked command in '/home/jerry/lab1_ws/build/lab1_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jerry/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/jerry/lab1_ws/build/lab1_pkg -- -j2 -l2
+[10.619s] Invoking command in '/home/jerry/lab1_ws/build/lab1_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jerry/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/jerry/lab1_ws/build/lab1_pkg
+[10.628s] -- Install configuration: ""
+[10.628s] -- Installing: /home/jerry/lab1_ws/install/lab1_pkg/lib/lab1_pkg/relay
+[10.635s] -- Set runtime path of "/home/jerry/lab1_ws/install/lab1_pkg/lib/lab1_pkg/relay" to ""
+[10.635s] -- Up-to-date: /home/jerry/lab1_ws/install/lab1_pkg/share/lab1_pkg/environment/pythonpath.sh
+[10.636s] -- Installing: /home/jerry/lab1_ws/install/lab1_pkg/share/lab1_pkg/environment/pythonpath.dsv
+[10.638s] -- Up-to-date: /home/jerry/lab1_ws/install/lab1_pkg/local/lib/python3.10/dist-packages/lab1_pkg-0.0.0-py3.10.egg-info
+[10.638s] -- Installing: /home/jerry/lab1_ws/install/lab1_pkg/local/lib/python3.10/dist-packages/lab1_pkg-0.0.0-py3.10.egg-info/top_level.txt
+[10.639s] -- Installing: /home/jerry/lab1_ws/install/lab1_pkg/local/lib/python3.10/dist-packages/lab1_pkg-0.0.0-py3.10.egg-info/dependency_links.txt
+[10.640s] -- Installing: /home/jerry/lab1_ws/install/lab1_pkg/local/lib/python3.10/dist-packages/lab1_pkg-0.0.0-py3.10.egg-info/PKG-INFO
+[10.641s] -- Installing: /home/jerry/lab1_ws/install/lab1_pkg/local/lib/python3.10/dist-packages/lab1_pkg-0.0.0-py3.10.egg-info/SOURCES.txt
+[10.642s] -- Up-to-date: /home/jerry/lab1_ws/install/lab1_pkg/local/lib/python3.10/dist-packages/lab1_pkg
+[10.642s] -- Up-to-date: /home/jerry/lab1_ws/install/lab1_pkg/local/lib/python3.10/dist-packages/lab1_pkg/__init__.py
+[10.679s] Listing '/home/jerry/lab1_ws/install/lab1_pkg/local/lib/python3.10/dist-packages/lab1_pkg'...
+[10.687s] -- Installing: /home/jerry/lab1_ws/install/lab1_pkg/lib/lab1_pkg/talker.py
+[10.688s] -- Up-to-date: /home/jerry/lab1_ws/install/lab1_pkg/share/ament_index/resource_index/package_run_dependencies/lab1_pkg
+[10.691s] -- Up-to-date: /home/jerry/lab1_ws/install/lab1_pkg/share/ament_index/resource_index/parent_prefix_path/lab1_pkg
+[10.691s] -- Up-to-date: /home/jerry/lab1_ws/install/lab1_pkg/share/lab1_pkg/environment/ament_prefix_path.sh
+[10.692s] -- Installing: /home/jerry/lab1_ws/install/lab1_pkg/share/lab1_pkg/environment/ament_prefix_path.dsv
+[10.692s] -- Up-to-date: /home/jerry/lab1_ws/install/lab1_pkg/share/lab1_pkg/environment/path.sh
+[10.692s] -- Installing: /home/jerry/lab1_ws/install/lab1_pkg/share/lab1_pkg/environment/path.dsv
+[10.692s] -- Up-to-date: /home/jerry/lab1_ws/install/lab1_pkg/share/lab1_pkg/local_setup.bash
+[10.692s] -- Up-to-date: /home/jerry/lab1_ws/install/lab1_pkg/share/lab1_pkg/local_setup.sh
+[10.692s] -- Up-to-date: /home/jerry/lab1_ws/install/lab1_pkg/share/lab1_pkg/local_setup.zsh
+[10.692s] -- Installing: /home/jerry/lab1_ws/install/lab1_pkg/share/lab1_pkg/local_setup.dsv
+[10.692s] -- Installing: /home/jerry/lab1_ws/install/lab1_pkg/share/lab1_pkg/package.dsv
+[10.692s] -- Up-to-date: /home/jerry/lab1_ws/install/lab1_pkg/share/ament_index/resource_index/packages/lab1_pkg
+[10.692s] -- Up-to-date: /home/jerry/lab1_ws/install/lab1_pkg/share/lab1_pkg/cmake/lab1_pkgConfig.cmake
+[10.692s] -- Up-to-date: /home/jerry/lab1_ws/install/lab1_pkg/share/lab1_pkg/cmake/lab1_pkgConfig-version.cmake
+[10.692s] -- Up-to-date: /home/jerry/lab1_ws/install/lab1_pkg/share/lab1_pkg/package.xml
+[10.697s] Invoked command in '/home/jerry/lab1_ws/build/lab1_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jerry/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/jerry/lab1_ws/build/lab1_pkg
